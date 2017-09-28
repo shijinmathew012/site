@@ -1,2 +1,424 @@
-Under construction
-edited
+<!DOCTYPE html>
+<html>
+    <head>
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+ <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div id="device">
+            <div id="screen">
+                <input type="search" placeholder="Google" id="search" />
+                <table>
+                    <tr>
+                        <td colspan="4"><span id="clock">12:00 AM</span></td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://google.com" target="_blank"><img src=" https://cdn1.iconfinder.com/data/icons/appicns/513/appicns_Chrome.png " alt="Browser" class="icon" /></a></td>
+                        <td><img src=" http://iespauclaris.org/wp-content/uploads/2016/08/Phone_30029.png " class="icon" id="ppl" /></td>
+                        <td><img src="http://icons.iconarchive.com/icons/dtafalonso/android-l/512/Calculator-icon.png" class="icon" id="calc" /></td>
+                        <td><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/calendar-icon.png" class="icon" id="openCal" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src=" http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Settings-icon.png " id="openSet" class="icon" /></td>
+                        <td><img src="https://cdn1.iconfinder.com/data/icons/android-png/256/Android-Email.png" id="openEmail" class="icon" /></td>
+                        <td><img src="http://c.dryicons.com/images/icon_sets/colorful_stickers_part_5_icons_set/png/256x256/news.png" id="openNews" class="icon" />
+                        </td>
+                        <td><img src="http://porcelanatoliquido.info/wp-content/uploads/2016/04/icone-pintura.png" class="icon" id="openPaint" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/notepad-icon.png" class="icon" id="openNotes" /></td>
+                        <td><img src="http://piq.codeus.net/static/media/userpics/piq_40021_400x400.png" class="icon" id="openGame" /></td>
+                        <td><img src="https://a.disquscdn.com/dotcom/d-2407bda/img/brand/disqus-social-icon-blue-transparent.png" class="icon" id="openDed" /></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="controls">
+                <img src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/png/512/android-system-home.png" alt="home" id="home" draggable="false" />
+            </div>
+        </div>
+        <window id="contacts">
+        <h3>Contacts</h3>
+        <style>
+#profileList{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+}
+.profileImg{
+   display: inline-block;
+   width: 24pt;
+   height: 24pt; 
+   margin-right: 5px;
+   margin-left: 5px;
+}
+</style>
+<p id="profileList"><img src="https://api.sololearn.com/Uploads/Avatars/2280953.jpg" class="profileImg" /><a href="https://www.sololearn.com/Profile/2280953/?ref=app">Thomas Hj</a></p>
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/1170424.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/1170424/?ref=app'>Frost</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/119479.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/119479/?ref=app'>Jafca</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/3577167.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/3577167/?ref=app'>Tashi N</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/3204284.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/3204284/?ref=app'>Theprogrammers</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/3677884.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/3677884/?ref=app'>Agus Mei</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/2813095.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/2813095/?ref=app'>Didi Georgel Danaila</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/197327.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/197327/?ref=app'>Burey</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/3075471.jpg' class="profileImg"/><a href='https://www.sololearn.com/Profile/3075471/?ref=app'>Paola Mancia</a></p>
+
+<p id='profileList'><img src='https://api.sololearn.com/Uploads/Avatars/3359424.jpg' class='profileImg' /><a href='https://www.sololearn.com/Profile/3359424/?ref=app'>Gavin Christians</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/2437074.jpg' class="profileImg" /><a href='https://www.sololearn.com/Profile/2437074/?ref=app'>Shamima Yasmin</a></p>
+
+<p id="profileList"><img src='https://api.sololearn.com/Uploads/Avatars/2034207.jpg' class="profileImg" /><a href='https://www.sololearn.com/Profile/2034207/?ref=app'>Maz</a></p>
+
+<p id="profileList"><img src=" https://api.sololearn.com/Uploads/Avatars/3355428.jpg " class="profileImg" /><a href="https://www.sololearn.com/Profile/3355428/?ref=app">J.G.</a></p>
+
+<p id="profileList"><img src=" https://api.sololearn.com/Uploads/Avatars/940396.jpg " class="profileImg" /><a href=" https://www.sololearn.com/Profile/940396/?ref=app ">Amrit Mahendra Joseph</a></p>
+
+<p id="profileList"><img src=" https://api.sololearn.com/Uploads/Avatars/3566964.jpg " class="profileImg" /><a href=" https://www.sololearn.com/Profile/3566964/?ref=app ">TheRedSpy</a></p>
+        </window>
+        <window id="calculator">
+            <style>
+                #scn {
+                   width: calc(100% - 10px);
+                   height: 20px;
+                   padding: 5px;
+                   text-align: right; 
+                   color: black;
+                   background-color: #777;
+                   display: block;
+                }
+                .btnC {
+                    display: inline-block;
+                    width: 25%;
+                    height: 15%;
+                    margin: 0;
+                    border: none;
+                    outline: none;
+                    background-color: #555;
+                    color: #AAA;
+                }
+                .btnC:active {
+                    background-color: #777; 
+                }
+                #eqC {
+                    width: 100%;
+                }
+            </style>
+            <span id="scn"></span>
+            <button class="btnC">(</button><button class="btnC">)</button><button class="btnC">π</button><button class="btnC">CE</button>
+            <br />
+            <button class="btnC">1</button><button class="btnC">2</button><button class="btnC">3</button><button class="btnC">+</button>
+            <br />
+            <button class="btnC">4</button><button class="btnC">5</button><button class="btnC">6</button><button class="btnC">-</button>
+            <br />
+            <button class="btnC">7</button><button class="btnC">8</button><button class="btnC">9</button><button class="btnC">/</button>
+            <br />
+            <button class="btnC">.</button><button class="btnC">0</button><button class="btnC">%</button><button class="btnC">*</button>
+            <br />
+            <button id="eqC" class="btnC">=</button>
+        </window>
+        <window id="apps">
+            <p>No Recent Apps</p>
+        </window>
+        <window id="settings">
+            <style>
+                #clrPaint {
+                    background: #777;
+                    color: #FFF;
+                    border: none;
+                }
+                #clrPaint:active {
+                    background: #333;
+                }
+                #sett {
+                   width: 100%;
+                   position: static;
+                   margin: 0; 
+                   padding: 0;
+                   background-color: #111;
+                   color: #AAA;
+                   border-collapse: collapse;
+                   border: none;
+                   height: initial;
+                }
+                
+                tr {
+                   padding: 0;
+                   margin: 0;
+                }
+                #setHead {
+                   background-color: #555;
+                   color: #CCC; 
+                }
+            </style>
+            <table id="sett" border="0">
+                <tr id="setHead">
+                    <th class="th"><img src="" />Settings</th>
+                </tr>
+                <tr>
+                    <td class="td">Background:</td>
+                    <td class="td"><input type="text" width="50px" id="bgcolor" placeholder="#000000"/></td>
+                </tr>
+                <tr>
+                    <td class="td">Brightness</td>
+                    <td class="td"><input type="range" min="0" max="10" value="0" id="bright" /></td>
+                </tr>
+                <tr>
+                    <td class="td">Clear Paint</td>
+                    <td class="td"><button id="clrPaint">CLEAR</button></td>
+                </tr>
+                <tr>
+                    <td class="td">Developer:</td>
+                    <td class="td">Andrew Grider</td>
+                </tr>
+            </table>
+        </window>
+        <window id="email">
+            <div id="emailHeader">
+                <img src="https://cdn1.iconfinder.com/data/icons/android-png/256/Android-Email.png" class="icon" id="eico" />
+                <h3 id="etitle">Email</h3>
+            </div>
+            <div id="mail">
+                <textarea type="email" id="addr" placeholder="Email"></textarea>
+                <textarea type="text" id="subj" placeholder="Subject"></textarea>
+                <textarea id="ebody" placeholder="Body"></textarea>
+                <button id="sendEmail">Send</button>
+            </div>
+            <style>
+                #mail {
+                    text-align: center;
+                    width: 100%;
+                }
+                #ebody {
+                    min-width: 80%;
+                    max-width: 80%;
+                    min-height: 100px;
+                }
+                #subj, #addr {
+                    min-width: 80%;
+                    max-width: 80%;
+                }
+                #emailHeader {
+                    width: 100%;
+                    background: #CCC;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                }
+                #etitle {
+                    padding-left: 15px;
+                    font-weight: lighter;
+                }
+            </style>
+        </window>
+        <window id="news">
+            <div id="updates">
+                <p>Recently Added</p>
+                <ul>
+                    <li>Mini Game</li>
+                    <li>Calendar</li>
+                    <li>Clear paint in Settings</li>
+                    <li>Paint</li>
+                    <li>Notepad</li>
+                    <li>Brightness Settings</li>
+                    <li>News App</li>
+                    <li>Email</li>
+                    <li>Clock</li>
+                </ul>
+                <p>Soon to Come</p>
+                <ul>
+                    <li>Terminal</li>
+                </ul>
+            </div>
+        </window>
+        <window id="notepad">
+            <textarea id="notes" placeholder="Enter Notes..."></textarea>
+            <style>
+                #notes {
+                    border: none;
+                    min-height: 100%;
+                    max-height: 100%;
+                    min-width: 100%;
+                    max-width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+            </style>
+        </window>
+        <window id="paint">
+            <canvas id="c" height="100px" width="100px"></canvas>
+            <div id="paintCtrl">
+                <input type="color" id="colorSel" />
+            </div>
+            
+            <style>
+                #c {
+                    margin: 0;
+                    padding: 0;
+                    border: solid 1px #000;
+                }
+                #paintCtrl {
+                    width: 100%;
+                    height: 25px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+            </style>
+        </window>
+        <style>
+            #paint {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+        </style>
+        <window id="calendar">
+            <table id="cal" border="0">
+                <tr>
+                    <td colspan="7" class="day" id="datetitle"></td>
+                </tr>
+                <tr>
+                    <th class="day thd">Sun</th>
+                    <th class="day thd">Mon</th>
+                    <th class="day thd">Tue</th>
+                    <th class="day thd">Wed</th>
+                    <th class="day thd">Thu</th>
+                    <th class="day thd">Fri</th>
+                    <th class="day thd">Sat</th>
+                </tr>
+                <tr id="first">
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+                <tr>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+                <tr>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+                <tr>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+                <tr>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+                <tr>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                    <td class="day"></td>
+                </tr>
+            </table>
+        </window>
+        <window id="game">
+            <div id="gameBg">
+                <button id="beginGame">START</button>
+            </div>
+            <style>
+                #gameBg {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #05F;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.target {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background: transparent;
+    transition: left 1.5s ease-in-out;
+    position: absolute;
+    left:;
+    bottom: 0;
+}
+#beginGame {
+    padding: 15px;
+    border: none;
+    color: #F50;
+    background: #FA0;
+    font-family: monospace;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 3px;
+}
+.note {
+    color: #FA0;
+    font-size: 17pt;
+    font-weight: bolder;
+    text-shadow: 0 0 2px #F70;
+    text-align: center;
+    width: calc(100% - 50px);
+    padding: 25px;
+}
+            </style>
+        </window>
+        <window id="ded">
+            <div id="dedHead">Dedication</div>
+            <div id="dedication">
+                <div id="dedPic">
+                    <img src="https://api.sololearn.com/Uploads/Avatars/1997575.jpg" id="dedImg" />
+                </div>
+                <h2 id="dedUser">Andrew Grider</h2>
+                <button id="gotoDed">Visit Profile</button>
+                <button id="newDed">New Dedication</button>
+            </div>
+        </window>
+        <window id="blackScn"></window>
+        <div id="power"></div>
+        <div id="brightness"></div>
+    </body>
+ <script src="function.js"></script>
+</html>
