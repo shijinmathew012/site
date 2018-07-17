@@ -1,0 +1,188 @@
+{
+  "pola": [
+    {
+      "name": "Linear Motion",
+      "flag": "qp1"
+    },
+    {
+      "name": "Constant Acceleration Motion",
+      "flag": "qp2"
+    },
+    {
+      "name": "Projectile Motion",
+      "flag": "qp3"
+    },
+    {
+      "name": "Force",
+      "flag": "qp4"
+    },
+    {
+      "name": "Work, Power, Energy",
+      "flag": "qp5"
+    },
+    {
+      "name": "Rotary Motion",
+      "flag": "qp6"
+    },
+    {
+      "name": "Harmonic Motion",
+      "flag": "qp7"
+    },
+    {
+      "name": "Gravity",
+      "flag": "qp8"
+    },
+    {
+      "name": "Lateral and Longitudinal Waves",
+      "flag": "qp9"
+    },
+    {
+      "name": "Sound Waves",
+      "flah": "qp10"
+    },
+    {
+      "name": "Electrostatics",
+      "flag": "qp11"
+    },
+    {
+      "name": "Direct Current",
+      "flag": "qp12"
+    },
+    {
+      "name": "Magnetic Field",
+      "flag": "qp13"
+    },
+    {
+      "name": "Alternating Current",
+      "flag": "qp14"
+    },
+    {
+      "name": "Thermodynamics",
+      "flag": "qp15"
+    }
+  ],
+  "polb": [
+    {
+      "name": "Linear Motion",
+      "flag": "qp1"
+    },
+    {
+      "name": "Constant Acceleration Motion",
+      "flag": "qp2"
+    },
+    {
+      "name": "Projectile Motion",
+      "flag": "qp3"
+    },
+    {
+      "name": "Force",
+      "flag": "qp4"
+    },
+    {
+      "name": "Work, Power, Energy",
+      "flag": "qp5"
+    },
+    {
+      "name": "Rotary Motion",
+      "flag": "qp6"
+    },
+    {
+      "name": "Harmonic Motion",
+      "flag": "qp7"
+    },
+    {
+      "name": "Gravity",
+      "flag": "qp8"
+    },
+    {
+      "name": "Lateral and Longitudinal Waves",
+      "flag": "qp9"
+    },
+    {
+      "name": "Sound Waves",
+      "flah": "qp10"
+    },
+    {
+      "name": "Electrostatics",
+      "flag": "qp11"
+    },
+    {
+      "name": "Direct Current",
+      "flag": "qp12"
+    },
+    {
+      "name": "Magnetic Field",
+      "flag": "qp13"
+    },
+    {
+      "name": "Alternating Current",
+      "flag": "qp14"
+    },
+    {
+      "name": "Thermodynamics",
+      "flag": "qp15"
+    }
+  ],
+  "polc": [
+    {
+      "name": "Linear Motion",
+      "flag": "qp1"
+    },
+    {
+      "name": "Constant Acceleration Motion",
+      "flag": "qp2"
+    },
+    {
+      "name": "Projectile Motion",
+      "flag": "qp3"
+    },
+    {
+      "name": "Force",
+      "flag": "qp4"
+    },
+    {
+      "name": "Work, Power, Energy",
+      "flag": "qp5"
+    },
+    {
+      "name": "Rotary Motion",
+      "flag": "qp6"
+    },
+    {
+      "name": "Harmonic Motion",
+      "flag": "qp7"
+    },
+    {
+      "name": "Gravity",
+      "flag": "qp8"
+    },
+    {
+      "name": "Lateral and Longitudinal Waves",
+      "flag": "qp9"
+    },
+    {
+      "name": "Sound Waves",
+      "flah": "qp10"
+    },
+    {
+      "name": "Electrostatics",
+      "flag": "qp11"
+    },
+    {
+      "name": "Direct Current",
+      "flag": "qp12"
+    },
+    {
+      "name": "Magnetic Field",
+      "flag": "qp13"
+    },
+    {
+      "name": "Alternating Current",
+      "flag": "qp14"
+    },
+    {
+      "name": "Thermodynamics",
+      "flag": "qp15"
+    }
+  ]
+}
